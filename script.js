@@ -14,3 +14,16 @@ if(document.location.search === '?mail_status=error'){
         msgStatus.classList.remove('error')
     }, 3000);
 }
+setInterval(()=>{
+const time = document.querySelector('#time');
+let date = new Date();
+let hours = date.getHours();
+let minutes = date.getMinutes();
+let seconds = date.getSeconds();
+time.textContent = hours + ":" + minutes + ":" + seconds;
+});
+
+
+
+
+
