@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  background: rgb(152, 146, 255);
+  background: linear-gradient(139deg, rgb(152, 146, 255) 0%, rgb(216, 231, 236) 43%, rgb(185, 251, 235) 100%);
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  width: 100vw;
+  line-height: 60px;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  z-index: 2;
+  margin-bottom: 3%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  justify-content: flex-end;
+}
+
+.nav-items {
+  display: block;
+}
+
+.nav-items a {
+  padding: 0 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-items i {
+  color: #ffd700;
+  margin-left: 50px;
+  font-size: 24px;
+}
+
+.nav-items a:hover {
+  color: #ffd700;
+}
+
+nav .nav-logo span {
+  color: #FF0000;
+  font-size: 24px;
+  margin-left: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-logo {
+  color: #ffd700;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 700px;
+}
+
+footer {
+  bottom: 0;
+  margin-top: 20%;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+footer .fa-facebook-f {
+  color: #4267B2;
+  text-transform: none;
+}
+
+footer .fa-youtube {
+  color: #FF0000;
+}
+
+footer .fa-spotify {
+  color: #1DB954;
+}
+
+footer .fa-discord {
+  color: #5865F2;
+}
+
+footer .fa-brands {
+  display: inline-block;
+  margin: 0 40px;
+  padding: 4px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+footer .footer-text {
+  font-size: 20px;
+  margin-top: 24px;
+  color: #C0C0C0;
+}
+
+footer .footer-text .logo-text {
+  color: #FF0000;
+}
+
+footer .pl-text {
+  color: #ffd700;
+}
+
+.contact-form {
+  padding: 30px;
+  width: 600px;
+  background-color: #fff;
+  border-radius: 24px;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+}
+
+.contact-form label {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid hsl(0, 0%, 67%);
+  border-radius: 12px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.contact-form button {
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  color: #fff;
+  background: linear-gradient(139deg, rgb(54, 42, 246) 0%, rgb(30, 186, 240) 43%, rgb(1, 255, 192) 100%);
+}
+
+.msg-status {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  padding: 30px;
+  width: 600px;
+  border-radius: 12px;
+  font-size: 24px;
+}
+
+.success {
+  display: flex;
+  background-color: hsl(143, 83%, 55%);
+}
+
+.error {
+  display: flex;
+  background-color: hsl(9, 100%, 64%);
+}
+
+.contact {
+  padding-bottom: 30px;
+}
+
+.contact .container .contact-logo {
+  position: relative;
+  height: 20vh;
+  top: 3vh;
+  text-align: center;
+  color: #FFD700;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.contact .container .contact-logo span {
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+.contact .container .contact-card {
+  width: 55vw;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+}
+
+.contact .container .contact-card iframe {
+  height: 100%;
+}
+
+.contact .container .contact-card .contact-text {
+  margin-top: 1%;
+}
+
+.contact .container .contact-card .contact-text .contact-icon {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  font-size: 28px;
+  text-shadow: 1px 1px 4px #404040;
+}
+
+.contact .container .contact-card .contact-text .contact-icon i {
+  color: #FFD700;
+}
+
+.contact .container .contact-card .contact-text .contact-icon span {
+  margin-left: 10px;
+  text-shadow: 1px 1px 4px #404040;
+}
+
+.pg-photo {
+  width: 40vw;
+  height: 40vh;
+  margin-bottom: 4%;
+}/*# sourceMappingURL=style.css.map */
