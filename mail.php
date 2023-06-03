@@ -13,3 +13,4 @@ if($mail_status){
 }else{
     header("Location: /propozycje.html?mail_status=error");
 }
+?>
