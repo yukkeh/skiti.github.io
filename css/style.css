@@ -74,7 +74,7 @@ nav .nav-logo span {
 }
 
 footer {
-  bottom: 0;
+  bottom: 0px;
   margin-top: 10%;
   padding: 10px 0;
   text-align: center;
@@ -159,6 +159,7 @@ footer .pl-text {
   padding: 12px;
   width: 100%;
   cursor: pointer;
+  transition: color 0.3s;
 }
 
 .contact-form button:hover {
@@ -262,8 +263,7 @@ footer .pl-text {
 }
 
 .project {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 20px;
 }
 
 .formula {
